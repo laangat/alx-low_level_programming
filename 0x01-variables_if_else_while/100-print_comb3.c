@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+/**
+ * main - Entry point
+ * prints all combinations of numbers with the digits
+ * supposed to be different printing only the smallest
+ * combinations of the numbers
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int c;
+	int d = 0;
+
+	while (d < 10)
+	{
+		c = 0;
+		while (c < 10)
+		{
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			c++;
+		}
+		d++;
+	}
+	putchar('\n');
+	return (0);
+}
