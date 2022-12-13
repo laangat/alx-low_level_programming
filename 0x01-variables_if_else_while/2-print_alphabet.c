@@ -1,28 +1,24 @@
 #include<stdio.h>
-/* more headers go here */
+/* more headers goes there */
 #include<ctype.h>
-/*betty style for doc function goes here */
+/* betty style doc for function main goes here */
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
-
 int main(void)
 {
-	int x;
+	char c;
 
-	for (int x = 'A'; x <= 'Z'; x++)
+	c = 'a';
+
+	while (c <= 'z')
 	{
-
-		int lower_x = tolower(x);
-
-		putchar(lower_x);
-
-
+		putchar(c);
+		c++;
 	}
 
-printf("%c\n", x);
+	return (0);
 
 }
