@@ -9,17 +9,14 @@
  */
 int main(void)
 {
-	char c;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	c = 'a';
-
-	while (c <= 'z')
+	for (i = 0; i < 26; i++)
 	{
-		putchar(c);
-		c++;
-		printf("\n");
+		putchar(alp[i]);
 	}
-
+	putchar('\n');
 	return (0);
 
 }
