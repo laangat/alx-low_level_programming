@@ -7,7 +7,7 @@
  * Return Always 0.
  */
 
-int_abs(int)
+int _abs(int)
 {
 	int = x;
 	if (x < 0)
