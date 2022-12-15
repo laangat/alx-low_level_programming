@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * int_abs(int) - prints the absolute value of an integer
  *
