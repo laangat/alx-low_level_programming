@@ -11,14 +11,6 @@
  */
 int add(int e, int d)
 {
-	int i;
-	int result = 0;
+	return (e + d);
 
-	for i in range(e):
-		for d in range(d):
-	{
-		result += 1
-	}
-
-	return (result);
 }
