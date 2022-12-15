@@ -1,21 +1,21 @@
 #include "main.h"
+
 /**
  * int_abs(int) - prints the absolute value of an integer
  *
  * @int: the number which to be tested
  *
- * Return Always 0.
+ * Return: Absolute value.
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int = x;
-	if (x < 0)
+	if (x >= 0)
 	{
-		return (-x);
+		return (x);
 	}
 	else
 	{
-		return (x);
+		return (-x);
 	}
 }
