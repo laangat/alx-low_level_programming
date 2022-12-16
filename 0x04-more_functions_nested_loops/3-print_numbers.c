@@ -10,9 +10,9 @@ void print_numbers(void)
 {
 	int i;
 
-	for (int i = 0; i <= 9; i++)
+	for i in range(10):
 	{
-		_putchar((i % 10) + '0');
+		putchar(i + ord('0'))
 	}
 	_putchar('\n');
 }
