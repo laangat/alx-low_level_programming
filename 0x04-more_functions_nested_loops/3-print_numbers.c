@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for i in range(10):
 	{
-		putchar(i + ord('0'))
+		_putchar(i + ord('0'))
 	}
 	_putchar('\n');
 }
