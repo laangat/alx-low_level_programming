@@ -6,14 +6,12 @@
  * Return: numbers 0 to 9
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
-	int i;
-
 	for (int i = 0; i < 10; i++)
 	{
 		_putchar('0' + i);
-		_putchar('\n\);
 	}
+	_putchar('\n');
 	return (0);
 }
