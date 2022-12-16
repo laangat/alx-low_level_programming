@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * print_square - prints a square at the console
