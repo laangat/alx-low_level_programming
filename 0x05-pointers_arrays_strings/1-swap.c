@@ -1,12 +1,19 @@
 #include "main.h"
-#include<stdio.h>
 
-void swap_int(int *a, int *b);
+/**
+ * swap_int - swaps two integer vlues
+ *
+ * @a: first variable
+ * @b: second variable
+ *
+ */
 
-int main(void)
+void swap_int(int *a, int *b)
 {
-	int temp = *a;
+	int temp;
+
+	temp = *a;
 
 	*a = *b;
-	_putchar(
 	*b = temp;
+}
