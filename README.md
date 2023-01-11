@@ -1,3 +1,2 @@
 C projects
 Variables
-Libraries
