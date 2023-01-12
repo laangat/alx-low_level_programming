@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	int count;
 
 	int str_to_int;
-
+	/** str_to_int stores the converted integer value of a command line argument */
 	int sum = 0;
 
 	count = 1;
