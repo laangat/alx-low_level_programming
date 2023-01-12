@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
 	(void)argv; /*ignore argv*/
 
 	printf("%d\n", argc - 1);
+	/** argv doesn't include the name of the program, so we're subtracting 1 from argc
+	to get the total number of arguments passed to the program.  */
 
 	return (0);
 }
