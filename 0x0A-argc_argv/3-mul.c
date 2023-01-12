@@ -13,6 +13,7 @@
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
+	/**  These variables are used as counters, flags, and temporary storage throughout the function. */
 
 	i = 0;
 	d = 0;
@@ -23,18 +24,23 @@ int _atoi(char *s)
 
 	while (s[len] != '\0')
 		len++;
+	/** finds the lenght of the input string storing it in len variable */
 
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
 			++d;
+		/** If a '-' sign is found, the d variable is incremented. */
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
+			/** If the character is a digit, the digit is converted to its numerical
+			value by subtracting '0' from it and stored in the digit variable. */
 
 			if (d % 2)
 				digit = -digit;
+			/** If the d variable is odd, the digit is negated */
 
 			n = n * 10 + digit;
 
